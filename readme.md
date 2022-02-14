@@ -4,6 +4,8 @@
 
 Documentation still under development.
 
+Validator documentation will be found here in the future. https://www.cerberus.zone/
+
 ## Learn more
 
 - [Starport](https://starport.com)
