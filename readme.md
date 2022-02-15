@@ -8,8 +8,8 @@ Validator documentation will be found here in the future. https://www.cerberus.z
 
 ## Learn more
 
+- [Coming Soon! - Developer Chat](https://discord.gg)
 - [Starport](https://starport.com)
 - [Tutorials](https://docs.starport.com/guide)
 - [Starport docs](https://docs.starport.com)
 - [Cosmos SDK docs](https://docs.cosmos.network)
-- [Developer Chat](https://discord.gg/H6wGTY8sxw)
