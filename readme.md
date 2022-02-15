@@ -4,7 +4,7 @@
 
 Documentation still under development.
 
-Validator documentation will be found here in the future. https://www.cerberus.zone/
+Validator documentation will be found [here](https://www.cerberus.zone/running-a-validator.html)
 
 ## Socials
 
