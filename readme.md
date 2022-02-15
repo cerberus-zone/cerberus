@@ -6,9 +6,13 @@ Documentation still under development.
 
 Validator documentation will be found here in the future. https://www.cerberus.zone/
 
-## Learn more
+## Socials
 
-- [Coming Soon! - Developer Chat](https://discord.gg)
+- [Twitter](https://twitter.com/CerberusZone)
+- [Discord - Coming Soon!](https://discord.gg)
+
+## Other Docs
+
 - [Starport](https://starport.com)
 - [Tutorials](https://docs.starport.com/guide)
 - [Starport docs](https://docs.starport.com)
