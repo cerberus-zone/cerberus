@@ -11,6 +11,10 @@ Validator documentation will be found here in the future. https://www.cerberus.z
 - [Twitter](https://twitter.com/CerberusZone)
 - [Discord - Coming Soon!](https://discord.gg)
 
+## Running a Cerberus validator
+
+- [Validator documentation - Coming Soon!](https://www.cerberus.zone/running-a-validator.html)
+
 ## Other Docs
 
 - [Starport](https://starport.com)
