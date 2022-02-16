@@ -9,7 +9,7 @@ Validator documentation will be found [here](https://www.cerberus.zone/running-a
 ## Socials
 
 - [Twitter](https://twitter.com/CerberusZone)
-- [Discord - Coming Soon!](https://discord.gg)
+- [Discord](https://discord.gg/njD9SG7Y)
 
 ## Running a Cerberus validator
 
