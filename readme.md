@@ -6,6 +6,10 @@ Documentation still under development.
 
 Validator documentation will be found [here](https://www.cerberus.zone/running-a-validator.html)
 
+## Project Annoucement
+
+- [Cerberus ($CRBRUS) Airdrop coming to the Cosmos Network](https://medium.com/@cerberus_zone/cerberus-crbrus-airdrop-coming-to-the-cosmos-network-9911c780dcdd)
+
 ## Socials
 
 - [Twitter](https://twitter.com/CerberusZone)
@@ -13,7 +17,7 @@ Validator documentation will be found [here](https://www.cerberus.zone/running-a
 
 ## Running a Cerberus validator
 
-- [Validator documentation - Coming Soon!](https://www.cerberus.zone/running-a-validator.html)
+- [Validator documentation](https://www.cerberus.zone/running-a-validator.html) - Coming Soon!
 
 ## Other Docs
 
