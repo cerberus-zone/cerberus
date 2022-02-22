@@ -14,6 +14,8 @@ Validator documentation will be found [here](https://www.cerberus.zone/running-a
 
 - [Twitter](https://twitter.com/CerberusZone)
 - [Discord](https://discord.gg/njD9SG7Y)
+- [Telegram - Announcements Channel](https://t.me/cerberus_zone)
+- [Telegram Group](https://t.me/cerberus_zone_group)
 
 ## Running a Cerberus validator
 
