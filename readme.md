@@ -2,9 +2,7 @@
 
 **Cerberus** is the the first-ever three headed canine meme-coin airdrop coming to the Cosmos Network. Cerberus NFT project to follow up the Cerberus Mainnet launch.
 
-Documentation still under development.
-
-Validator documentation will be found [here](https://www.cerberus.zone/running-a-validator.html)
+Validator documentation can be found [here](https://www.cerberus.zone/running-a-validator.html)
 
 ## Project Annoucement
 
