@@ -1,1 +1,49 @@
-{"body":{"messages":[{"@type":"/cosmos.staking.v1beta1.MsgCreateValidator","description":{"moniker":" Ŀavender.Five Nodes 🐝","identity":"F87ADDB700C0CC94","website":"http://www.lavenderfive.com/","security_contact":"hello@lavenderfive.com","details":"Lavender.Five Nodes is committed to providing world class validator services to make your life easy, including 100% soft slash protection. \nCome say Hi! https://twitter.com/lavender_five"},"commission":{"rate":"0.050000000000000000","max_rate":"0.100000000000000000","max_change_rate":"0.050000000000000000"},"min_self_delegation":"1","delegator_address":"cerberus140l6y2gp3gxvay6qtn70re7z2s0gn57zs7ndn2","validator_address":"cerberusvaloper140l6y2gp3gxvay6qtn70re7z2s0gn57z90e2f5","pubkey":{"@type":"/cosmos.crypto.ed25519.PubKey","key":"z1OKixvVvMAB8kjHCA6Vht+jAQKabeHTEwcWLaK/Xcg="},"value":{"denom":"ucrbrus","amount":"4000000000000"}}],"memo":"a90ffdff6b4f6d8964f749b568355751cb0abc48@192.168.0.182:26656","timeout_height":"0","extension_options":[],"non_critical_extension_options":[]},"auth_info":{"signer_infos":[{"public_key":{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"AgAxffwFDTjrK5UoAmT9aVOuI7CGxe3T5Wsxx2kWWhJB"},"mode_info":{"single":{"mode":"SIGN_MODE_LEGACY_AMINO_JSON"}},"sequence":"0"}],"fee":{"amount":[],"gas_limit":"200000","payer":"","granter":""}},"signatures":["Yoe36yW5OdiKkjIQKyB9oVxl6WZ1Bx5u5K/tX2ZUaAACrrm6BWFP4GkK3GD9TwKY8SS7BL7ZUWPZwdAfemee9A=="]}
+{
+  "body": {
+    "messages": [
+      {
+        "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+        "description": {
+          "moniker": " Ŀavender.Five Nodes 🐝",
+          "identity": "F87ADDB700C0CC94",
+          "website": "http://www.lavenderfive.com/",
+          "security_contact": "hello@lavenderfive.com",
+          "details": "Lavender.Five Nodes is committed to providing world class validator services to make your life easy, including 100% soft slash protection. \nCome say Hi! https://twitter.com/lavender_five"
+        },
+        "commission": {
+          "rate": "0.050000000000000000",
+          "max_rate": "0.100000000000000000",
+          "max_change_rate": "0.050000000000000000"
+        },
+        "min_self_delegation": "1",
+        "delegator_address": "cerberus140l6y2gp3gxvay6qtn70re7z2s0gn57zs7ndn2",
+        "validator_address": "cerberusvaloper140l6y2gp3gxvay6qtn70re7z2s0gn57z90e2f5",
+        "pubkey": {
+          "@type": "/cosmos.crypto.ed25519.PubKey",
+          "key": "z1OKixvVvMAB8kjHCA6Vht+jAQKabeHTEwcWLaK/Xcg="
+        },
+        "value": { "denom": "ucrbrus", "amount": "4000000000000" }
+      }
+    ],
+    "memo": "a90ffdff6b4f6d8964f749b568355751cb0abc48@192.168.0.182:26656",
+    "timeout_height": "0",
+    "extension_options": [],
+    "non_critical_extension_options": []
+  },
+  "auth_info": {
+    "signer_infos": [
+      {
+        "public_key": {
+          "@type": "/cosmos.crypto.secp256k1.PubKey",
+          "key": "AgAxffwFDTjrK5UoAmT9aVOuI7CGxe3T5Wsxx2kWWhJB"
+        },
+        "mode_info": { "single": { "mode": "SIGN_MODE_LEGACY_AMINO_JSON" } },
+        "sequence": "0"
+      }
+    ],
+    "fee": { "amount": [], "gas_limit": "200000", "payer": "", "granter": "" }
+  },
+  "signatures": [
+    "Yoe36yW5OdiKkjIQKyB9oVxl6WZ1Bx5u5K/tX2ZUaAACrrm6BWFP4GkK3GD9TwKY8SS7BL7ZUWPZwdAfemee9A=="
+  ]
+}
