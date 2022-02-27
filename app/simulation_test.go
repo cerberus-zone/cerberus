@@ -5,6 +5,7 @@ import (
 	"testing"
 	"time"
 
+	"github.com/cerberus-zone/cerberus/app"
 	"github.com/cosmos/cosmos-sdk/baseapp"
 	"github.com/cosmos/cosmos-sdk/codec"
 	"github.com/cosmos/cosmos-sdk/simapp"
@@ -14,7 +15,6 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/simulation"
 	"github.com/stretchr/testify/require"
 	"github.com/tendermint/starport/starport/pkg/cosmoscmd"
-	"github.com/cerberus-zone/cerberus/app"
 	abci "github.com/tendermint/tendermint/abci/types"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 	tmtypes "github.com/tendermint/tendermint/types"
