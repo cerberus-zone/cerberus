@@ -16,7 +16,7 @@ LEDGER_ENABLED ?= true
 SDK_PACK := $(shell go list -m github.com/cosmos/cosmos-sdk | sed  's/ /\@/g')
 TM_VERSION := $(shell go list -m github.com/tendermint/tendermint | sed 's:.* ::') # grab everything after the space in "github.com/tendermint/tendermint v0.34.7"
 BUILDDIR ?= $(CURDIR)/build
-VERSION := $(shell echo $(shell git describe --tags --always))
+VERSION := $(shell echo $(shell git describe --tags --always) | sed 's/-.*//')
 
 export GO111MODULE = on
 
