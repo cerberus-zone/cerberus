@@ -9,6 +9,7 @@ VERSION := $(shell echo $(shell git describe --tags --always) | sed 's/^v//')
 
 export GO111MODULE = on
 
+
 # process build tags
 
 build_tags = netgo
