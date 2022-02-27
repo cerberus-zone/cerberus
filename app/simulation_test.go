@@ -54,7 +54,6 @@ var defaultConsensusParams = &abci.ConsensusParams{
 	},
 }
 
-
 // BenchmarkSimulation run the chain simulation
 // Running using starport command:
 // `starport chain simulate -v --numBlocks 200 --blockSize 50`
