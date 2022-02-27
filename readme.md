@@ -19,7 +19,7 @@ Validator documentation can be found [here](https://www.cerberus.zone/running-a-
 
 - [Validator documentation](https://www.cerberus.zone/running-a-validator.html) - Coming Soon!
 
-## Other Docs.
+## Other Docs
 
 - [Starport](https://starport.com)
 - [Tutorials](https://docs.starport.com/guide)
