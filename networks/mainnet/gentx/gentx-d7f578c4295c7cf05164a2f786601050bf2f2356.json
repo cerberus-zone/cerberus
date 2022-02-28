@@ -1,1 +1,49 @@
-{"body":{"messages":[{"@type":"/cosmos.staking.v1beta1.MsgCreateValidator","description":{"moniker":"ECO Stake 🌱","identity":"5992A6D423A406D6","website":"https://ecostake.com","security_contact":"support@ecostake.com","details":"ECO Stake is a new climate positive validator 🌱 Carbon neutral and 10% of profit is donated to causes chosen by delegators 🌍 Secure and reliable with 100% slash protection and a low commission rate 🛡"},"commission":{"rate":"0.050000000000000000","max_rate":"0.100000000000000000","max_change_rate":"0.010000000000000000"},"min_self_delegation":"1","delegator_address":"cerberus1tat2cy3f9djtq9z7ly262sqngcarvaktk7yeah","validator_address":"cerberusvaloper1tat2cy3f9djtq9z7ly262sqngcarvaktr0w78f","pubkey":{"@type":"/cosmos.crypto.ed25519.PubKey","key":"WvzVhd66xCu2wXGUiTD/LKRaRYjH+Pf2CiXIzFQ5Smg="},"value":{"denom":"ucrbrus","amount":"4000000000000"}}],"memo":"d7f578c4295c7cf05164a2f786601050bf2f2356@192.168.1.2:26656","timeout_height":"0","extension_options":[],"non_critical_extension_options":[]},"auth_info":{"signer_infos":[{"public_key":{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"A7Zx+riaUyiohD4zlTrqvBj03UMHnLNfh7C4pgNHf5Jp"},"mode_info":{"single":{"mode":"SIGN_MODE_LEGACY_AMINO_JSON"}},"sequence":"0"}],"fee":{"amount":[],"gas_limit":"200000","payer":"","granter":""}},"signatures":["wAcRdndDwTL9ZxLW3xjZ/6kIyNMfmlN9HTwoFuw9llw7X6eKZ/u2vP43A2eP3Bsi/ZpiF13e7qxl1L6g1uxuNA=="]}
+{
+  "body": {
+    "messages": [
+      {
+        "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+        "description": {
+          "moniker": "ECO Stake 🌱",
+          "identity": "5992A6D423A406D6",
+          "website": "https://ecostake.com",
+          "security_contact": "support@ecostake.com",
+          "details": "ECO Stake is a new climate positive validator 🌱 Carbon neutral and 10% of profit is donated to causes chosen by delegators 🌍 Secure and reliable with 100% slash protection and a low commission rate 🛡"
+        },
+        "commission": {
+          "rate": "0.050000000000000000",
+          "max_rate": "0.100000000000000000",
+          "max_change_rate": "0.010000000000000000"
+        },
+        "min_self_delegation": "1",
+        "delegator_address": "cerberus1tat2cy3f9djtq9z7ly262sqngcarvaktk7yeah",
+        "validator_address": "cerberusvaloper1tat2cy3f9djtq9z7ly262sqngcarvaktr0w78f",
+        "pubkey": {
+          "@type": "/cosmos.crypto.ed25519.PubKey",
+          "key": "WvzVhd66xCu2wXGUiTD/LKRaRYjH+Pf2CiXIzFQ5Smg="
+        },
+        "value": { "denom": "ucrbrus", "amount": "4000000000000" }
+      }
+    ],
+    "memo": "d7f578c4295c7cf05164a2f786601050bf2f2356@192.168.1.2:26656",
+    "timeout_height": "0",
+    "extension_options": [],
+    "non_critical_extension_options": []
+  },
+  "auth_info": {
+    "signer_infos": [
+      {
+        "public_key": {
+          "@type": "/cosmos.crypto.secp256k1.PubKey",
+          "key": "A7Zx+riaUyiohD4zlTrqvBj03UMHnLNfh7C4pgNHf5Jp"
+        },
+        "mode_info": { "single": { "mode": "SIGN_MODE_LEGACY_AMINO_JSON" } },
+        "sequence": "0"
+      }
+    ],
+    "fee": { "amount": [], "gas_limit": "200000", "payer": "", "granter": "" }
+  },
+  "signatures": [
+    "wAcRdndDwTL9ZxLW3xjZ/6kIyNMfmlN9HTwoFuw9llw7X6eKZ/u2vP43A2eP3Bsi/ZpiF13e7qxl1L6g1uxuNA=="
+  ]
+}
