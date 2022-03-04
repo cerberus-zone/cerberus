@@ -19,7 +19,7 @@ Validator documentation can be found [here](https://www.cerberus.zone/running-a-
 - [Telegram - Announcements Channel](https://t.me/cerberus_zone)
 - [Telegram Group](https://t.me/cerberus_zone_group)
 
-## Other Docs
+## Other Docs.
 
 - [Starport](https://starport.com)
 - [Tutorials](https://docs.starport.com/guide)
