@@ -4,7 +4,7 @@
       {
         "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
         "description": {
-          "moniker": " WhisperNode🤐",
+          "moniker": "WhisperNode 🤐",
           "identity": "9C7571030BEF5157",
           "website": "https://WhisperNode.com",
           "security_contact": "hello@whispernode.com",
@@ -16,13 +16,13 @@
           "max_change_rate": "0.050000000000000000"
         },
         "min_self_delegation": "1",
-        "delegator_address": "cerberus1g3d36rfxfqtlnz3hzd05cs2wrjgykcz2atlz8e",
-        "validator_address": "cerberusvaloper1g3d36rfxfqtlnz3hzd05cs2wrjgykcz2g649a8",
+        "delegator_address": "cerberus1d62kadeszhevmlnj07c9frhrgyhshlhr03enlq",
+        "validator_address": "cerberusvaloper1d62kadeszhevmlnj07c9frhrgyhshlhr6qn597",
         "pubkey": {
           "@type": "/cosmos.crypto.ed25519.PubKey",
           "key": "T4WIwoTrR7W9Fq9f2El0jD/xb9cp9Dckm6uZjdd2VWU="
         },
-        "value": { "denom": "ucerberus", "amount": "4000000000000" }
+        "value": { "denom": "ucrbrus", "amount": "4000000000000" }
       }
     ],
     "memo": "a64a62d7c4ca146560d86da353d924ee1d91a441@65.21.235.249:26656",
@@ -35,7 +35,7 @@
       {
         "public_key": {
           "@type": "/cosmos.crypto.secp256k1.PubKey",
-          "key": "An6fGOa8PeEVG4tlVY8Q/L7roiahc7v3CWdpdpruqlvR"
+          "key": "AwiKpsfG7bwBMzmJ4i0dHaAf53ZEj4ns16gfpdqON3hp"
         },
         "mode_info": { "single": { "mode": "SIGN_MODE_DIRECT" } },
         "sequence": "0"
@@ -44,6 +44,6 @@
     "fee": { "amount": [], "gas_limit": "200000", "payer": "", "granter": "" }
   },
   "signatures": [
-    "TDetffVfUXItYOqmZaJVJyNLayrbtlV4BSDVCs+HC45bXVutRs5QUGb3Yi1AkDKoc4oztOUQiGozZdB/o98Ofg=="
+    "KUzTvcljXjWb/44gC7aPRvN5+DJ5zkoyRtWKoRnrpLwt/cFsgDeXjKakOFc0+xPZOjTqH7vUf/YVQoKkcmwpng=="
   ]
 }
