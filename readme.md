@@ -1,7 +1,5 @@
 # Cerberus v2.0.0
 
-Validator documentation can be found [here](https://docs.cerberus.zone/running-a-validator.html)
-
 ## Running a Cerberus validator
 
 - [Validator documentation](https://docs.cerberus.zone/running-a-validator.html)
