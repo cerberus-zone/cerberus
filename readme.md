@@ -4,7 +4,7 @@ Validator documentation can be found [here](https://docs.cerberus.zone/running-a
 
 ## Running a Cerberus validator
 
-- [Validator documentation](https://www.cerberus.zone/running-a-validator.html)
+- [Validator documentation](https://docs.cerberus.zone/running-a-validator.html)
 
 ## Socials
 
