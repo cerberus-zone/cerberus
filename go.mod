@@ -12,7 +12,7 @@ require (
 	github.com/stretchr/testify v1.7.1
 	github.com/tendermint/starport v0.19.2
 	github.com/tendermint/tendermint v0.34.16
-	github.com/tendermint/tm-db v0.6.7
+	github.com/tendermint/tm-db v0.6.7  //
 )
 
 require (
