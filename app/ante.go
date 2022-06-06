@@ -1,20 +1,26 @@
 package app
 
- import (
- 	sdk "github.com/cosmos/cosmos-sdk/types"
- 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
- 	"github.com/cosmos/cosmos-sdk/x/auth/ante"
- 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
- 	channelkeeper "github.com/cosmos/ibc-go/v2/modules/core/04-channel/keeper"
- 	ibcante "github.com/cosmos/ibc-go/v2/modules/core/ante"
- )
+import (
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	"github.com/cosmos/cosmos-sdk/x/auth/ante"
+	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	channelkeeper "github.com/cosmos/ibc-go/v2/modules/core/04-channel/keeper"
+	ibcante "github.com/cosmos/ibc-go/v2/modules/core/ante"
 
- // HandlerOptions extends the SDK's AnteHandler options by requiring the IBC
- // channel keeper.
+	wasmkeeper "github.com/CosmWasm/wasmd/x/wasm/keeper"
+	wasmTypes "github.com/CosmWasm/wasmd/x/wasm/types"
+)
+
+// HandlerOptions extends the SDK's AnteHandler options by requiring the IBC
+// channel keeper.
  type HandlerOptions struct {
  	ante.HandlerOptions
 
  	IBCChannelkeeper channelkeeper.Keeper
+
+	TxCounterStoreKey sdk.StoreKey
+	WasmConfig        wasmTypes.WasmConfig
  }
 
  type MinCommissionDecorator struct{}
@@ -77,6 +83,8 @@ package app
  	anteDecorators := []sdk.AnteDecorator{
  		ante.NewSetUpContextDecorator(), // outermost AnteDecorator. SetUpContext must be called first
  		NewMinCommissionDecorator(),
+		wasmkeeper.NewLimitSimulationGasDecorator(options.WasmConfig.SimulationGasLimit),
+		wasmkeeper.NewCountTXDecorator(options.TxCounterStoreKey),
  		ante.NewRejectExtensionOptionsDecorator(),
  		ante.NewMempoolFeeDecorator(),
  		ante.NewValidateBasicDecorator(),
