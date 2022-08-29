@@ -107,7 +107,7 @@ import (
 const (
 	AccountAddressPrefix = "cerberus"
 	Name                 = "cerberus"
-	v1UpgradeName        = "cerbywasm"
+	v2UpgradeName        = "cerbywasm"
 )
 
 // this line is used by starport scaffolding # stargate/wasm/app/enabledProposals
@@ -574,6 +574,9 @@ func New(
 	app.mm.RegisterRoutes(app.Router(), app.QueryRouter(), encodingConfig.Amino)
 	app.mm.RegisterServices(module.NewConfigurator(app.appCodec, app.MsgServiceRouter(), app.GRPCQueryRouter()))
 
+	// upgrade handlers
+	app.RegisterUpgradeHandlers(module.NewConfigurator(app.appCodec, app.MsgServiceRouter(), app.GRPCQueryRouter()))
+
 	// create the simulation manager and define the order of the modules for deterministic simulations
 	app.sm = module.NewSimulationManager(
 		auth.NewAppModule(appCodec, app.AccountKeeper, authsims.RandomGenesisAccounts),
@@ -632,7 +635,7 @@ func New(
 		panic(err)
 	}
 
-	if upgradeInfo.Name == v1UpgradeName && !app.UpgradeKeeper.IsSkipHeight(upgradeInfo.Height) {
+	if upgradeInfo.Name == v2UpgradeName && !app.UpgradeKeeper.IsSkipHeight(upgradeInfo.Height) {
 		storeUpgrades := store.StoreUpgrades{
 			Added: []string{wasm.ModuleName},
 		}
@@ -809,4 +812,11 @@ func initParamsKeeper(appCodec codec.BinaryCodec, legacyAmino *codec.LegacyAmino
 // SimulationManager implements the SimulationApp interface
 func (app *App) SimulationManager() *module.SimulationManager {
 	return app.sm
+}
+
+// RegisterUpgradeHandlers returns upgrade handlers
+func (app *App) RegisterUpgradeHandlers(cfg module.Configurator) {
+	app.UpgradeKeeper.SetUpgradeHandler(v2UpgradeName, func(ctx sdk.Context, plan upgradetypes.Plan, vm module.VersionMap) (module.VersionMap, error) {
+		return app.mm.RunMigrations(ctx, cfg, vm)
+	})
 }
