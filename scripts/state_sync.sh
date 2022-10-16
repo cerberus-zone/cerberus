@@ -41,14 +41,14 @@ echo "trust_height: $BLOCK_HEIGHT"
 echo "trust_hash: $TRUST_HASH"
 
 # Export state sync variables.
-export AXELARD_STATESYNC_ENABLE=true
-export AXELARD_P2P_MAX_NUM_OUTBOUND_PEERS=200
-export AXELARD_STATESYNC_RPC_SERVERS="https://cerberus-rpc.polkachu.com:443,https://cerberus-rpc.polkachu.com:443"
-export AXELARD_STATESYNC_TRUST_HEIGHT=$BLOCK_HEIGHT
-export AXELARD_STATESYNC_TRUST_HASH=$TRUST_HASH
+export CERBERUS_STATESYNC_ENABLE=true
+export CERBERUS_P2P_MAX_NUM_OUTBOUND_PEERS=200
+export CERBERUS_STATESYNC_RPC_SERVERS="https://cerberus-rpc.polkachu.com:443,https://cerberus-rpc.polkachu.com:443"
+export CERBERUS_STATESYNC_TRUST_HEIGHT=$BLOCK_HEIGHT
+export CERBERUS_STATESYNC_TRUST_HASH=$TRUST_HASH
 
 # Fetch and set list of seeds from chain registry.
-export AXELARD_P2P_SEEDS=$(curl -s https://raw.githubusercontent.com/cosmos/chain-registry/master/cerberus/chain.json | jq -r '[foreach .peers.seeds[] as $item (""; "\($item.id)@\($item.address)")] | join(",")')
+export CERBERUS_P2P_SEEDS=$(curl -s https://raw.githubusercontent.com/cosmos/chain-registry/master/cerberus/chain.json | jq -r '[foreach .peers.seeds[] as $item (""; "\($item.id)@\($item.address)")] | join(",")')
 
 # Start chain.
 cerberusd start --x-crisis-skip-assert-invariants --db_backend pebbledb
