@@ -1,4 +1,4 @@
-# Cerberus v2.0.0
+# Cerberus v2.0.1
 
 ## Running a Cerberus validator
 
