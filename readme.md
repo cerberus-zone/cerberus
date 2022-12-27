@@ -13,7 +13,4 @@
 
 ## Other Docs
 
-- [Starport](https://starport.com)
-- [Tutorials](https://docs.starport.com/guide)
-- [Starport docs](https://docs.starport.com)
 - [Cosmos SDK docs](https://docs.cosmos.network)
