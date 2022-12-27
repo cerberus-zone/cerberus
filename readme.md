@@ -1,12 +1,8 @@
-# Cerberus
+# Cerberus v2.0.0
 
-**Cerberus** is the the first-ever three headed canine meme-coin airdrop coming to the Cosmos Network. Cerberus NFT project to follow up the Cerberus Mainnet launch.
+## Running a Cerberus validator
 
-Validator documentation can be found [here](https://www.cerberus.zone/running-a-validator.html)
-
-## Project Annoucement
-
-- [Cerberus ($CRBRUS) Airdrop coming to the Cosmos Network](https://medium.com/@cerberus_zone/cerberus-crbrus-airdrop-coming-to-the-cosmos-network-9911c780dcdd)
+- [Validator documentation](https://docs.cerberus.zone/running-a-validator.html)
 
 ## Socials
 
@@ -15,13 +11,6 @@ Validator documentation can be found [here](https://www.cerberus.zone/running-a-
 - [Telegram - Announcements Channel](https://t.me/cerberus_zone)
 - [Telegram Group](https://t.me/cerberus_zone_group)
 
-## Running a Cerberus validator
+## Other Docs
 
-- [Validator documentation](https://www.cerberus.zone/running-a-validator.html) - Coming Soon!
-
-## Other Docs.
-
-- [Starport](https://starport.com)
-- [Tutorials](https://docs.starport.com/guide)
-- [Starport docs](https://docs.starport.com)
 - [Cosmos SDK docs](https://docs.cosmos.network)
